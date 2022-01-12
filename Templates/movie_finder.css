@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comic Sans MS";
+}
+body{
+    height: 100%;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    
+    margin-bottom: 100px;
+}
+header{
+    padding-top: 20px;
+    background-color: black;
+}
+.search-div{    
+    width: auto;
+    margin: 40px 20% 20px 20%;
+}
+.search-input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    background-color: rgba(47, 61, 255, 0.233);
+}
+#search-button{
+    background-color: orange;
+    width: 20%;
+    margin: 0px 2.5%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+.output-div{
+    width: 60%;
+    margin: 5% 20%;
+    text-align: center;
+}
+#movie_poster{
+    margin: 10px;
+    border-radius: 10px;
+    float: left;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#plot,#writer,#actors,#director{
+    clear: both;
+}
+p{
+    margin: 5px 5px;
+    font-size: 1.25em;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+}
+hr{
+    border: 2px solid rgb(0, 72, 134);
+}
+@media(max-width: 767px){
+    .search-div{
+        margin: 5% 10%;
+    }
+    .search-input{
+        width: 60%;
+    }
+    #search-button{
+        width: auto;
+    }
+    .output-div{
+        width: 80%;
+        margin: 5% 10%;
+    }
+}
